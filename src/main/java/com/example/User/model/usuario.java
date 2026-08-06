@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 
 @Entity
-public class usuario {
+public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
